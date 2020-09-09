@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Devonshire";
+	font-size: 2.5em;
+	margin-bottom: 0;
+	font-weight: 200;
+}
+
+#clear-button {
+	position: absolute;
+	top: 7.5em;
+	right: 0.5em;
+	width: 10em;
+	height: 2em;
+}
+
+#sketch-window {
+	box-sizing: border-box;
+	display: grid;
+	border: 3px solid black;
+	height: 80vh;
+	margin: 0 0.5em;
+}
